@@ -8,13 +8,13 @@
 # Runtime in hours:min:sec
 # Minimise this to reduce queuing time
 
-####################################################### DO NOT MODIFY BELOW THIS LINE #######################################################################
+####################################################### DO NOT MODIFY THESE FLAGS: START
 #$ -S /bin/bash
 #$ -j y
 #$ -l gpu=true
 #$ -l gpu_type=a6000
 #$ -l tmem=48G
-####################################################### DO NOT MODIFY ABOVE THIS LINE #######################################################################
+####################################################### DO NOT MODIFY THESE FLAGS: END
 
 # load libraries - through - python virtual environment
 export PATH=/share/apps/python-3.9.5-shared/bin:${PATH}
