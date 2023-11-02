@@ -6,7 +6,7 @@
 
 ## << WARNING >>
 > :warning: **Warning:** DO NOT manually set the CUDA_VISIBLE_DEVICES environment variable.  
-> Read the demonstration in *torch_demo.sh*
+> Read the demonstration in *torch_demo.py*
 
 ## Directory content
 
@@ -15,10 +15,10 @@
 
 ~~~
 .
-├── README.md
-├── .gitignore
 ├── demo_cmichack24.sh
-├── torch_demo.sh
+├── README.md
+├── torch_demo.py
+├── .gitignore
 ~~~
 
 ## Job Submission
