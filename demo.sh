@@ -1,20 +1,18 @@
-#!/bin/bash
-
 #$ -N cmichack
 #$ -wd /home/dummy_user/cmichack
 # change to your real user name and path
 
-#$ -l h_rt=0:29:00
+#$ -l h_rt=5:29:00
 # Runtime in hours:min:sec
-# Minimise this to reduce queuing time
 
-####################################################### DO NOT MODIFY THESE FLAGS: START
 #$ -S /bin/bash
 #$ -j y
+
+####################################################### Flags for the special GPU queue: START
 #$ -l gpu=true
 #$ -l gpu_type=a6000
-#$ -l tmem=48G
-####################################################### DO NOT MODIFY THESE FLAGS: END
+#$ -l tmem=59G
+####################################################### Flags for the special GPU queue: END
 
 # load libraries - through - python virtual environment
 export PATH=/share/apps/python-3.9.5-shared/bin:${PATH}

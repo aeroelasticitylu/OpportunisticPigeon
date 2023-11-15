@@ -1,12 +1,8 @@
-# Demo script for cmichack
-
-**Only for cmichack** 
-
-2024-1109 to 2024-1110
+# Demo script 
 
 ## << WARNING >>
 > :warning: **Warning:** DO NOT manually set the CUDA_VISIBLE_DEVICES environment variable.  
-> Read the demonstration in *torch_demo.py*
+> Check the demonstration in *torch_demo.py*
 
 ## Directory content
 
@@ -15,7 +11,7 @@
 
 ~~~
 .
-├── demo_cmichack24.sh
+├── demo.sh
 ├── NOTES_venv_3.9.5_lite.md
 ├── README.md
 ├── torch_demo.py
@@ -24,7 +20,7 @@
 
 ## Job Submission
 ~~~
-qsub demo_cmichack24.sh
+qsub demo.sh
 ~~~
 > **Note:** The maximum waiting time can be up to 10 mins.   
 
