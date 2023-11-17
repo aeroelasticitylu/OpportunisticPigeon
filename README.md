@@ -21,8 +21,7 @@
 ## Job Submission
 ~~~
 qsub demo.sh
-~~~
-> **Note:** The maximum waiting time can be up to 10 mins.   
+~~~  
 
 ## Lorem Ipsum
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc at cursus elementum, dolor erat aliquet ligula, at sollicitudin enim mi a nisl. Quisque id risus auctor, pharetra metus ut, aliquam mi. Sed auctor, nisl id convallis porta, nulla sapien euismod turpis, id vehicula magna nisl a nisi.
